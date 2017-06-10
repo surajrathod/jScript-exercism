@@ -13,8 +13,8 @@ Hamming.prototype.compute=function(dna1,dna2){
   return count;
   }
 
+else{throw new Error ('DNA strands must be of equal length.');}
 
-    throw 'DNA strands must be of equal length.'
 
 
 
